@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.part1 {
+    background-image: url("https://blog.assets.thediscoverer.com/2019/01/Naples-Pizza-Oven.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blue;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 60px 30px;
+    height: 420px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+#crispy,
+#stuffed,
+#gluten {
+    font-size: 30px;
+}
+
+#size,
+#crust,
+#topping {
+    font-size: 25px;
+}
