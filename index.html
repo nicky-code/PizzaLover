@@ -9,62 +9,63 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <title>SODO-Nicky PIZZERIA</title>
+    <title>SODO-Ni PIZZERIA</title>
 </head>
 
 <body>
-    <div>
-        <div class="part1">
-            <h1>SODO-Nicky PIZZERIA</h1>
-            <h2>Your Preference is valued with high quality.</h2>
-            <p>We bake delicious and quicky <strong>Pizzas</strong> for you according to your choice, kindly feel free to make your order here.<br> We have different sizes of pizza with different crust and so many different toppings regarding your taste,
-                all of these to an affordable <em>price</em>.</p> <br>
-        </div>
+    <div class="part1">
+        <h1>SODO-Ni PIZZERIA</h1>
+        <h2>Your Preference is valued with high quality.</h2>
+        <p>We bake delicious and quicky <strong>Pizzas</strong> for you according to your choice, kindly feel free to make your order here.<br> We have different sizes of pizza with different crust and so many different toppings regarding your taste, all
+            of these to an affordable <em>price</em>.</p> <br>
+    </div>
 
 
-        <div class="part2">
-            <h3><strong>OUR FAVORITE PIZZAS</strong></h3>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="images/crispy-crust pizza.jpg" width="270" height="220">
-                    <p id="crispy"><strong>CRISPY-CRUST PIZZA</strong></p>
-                </div>
-                <div class="col-md-3">
-                    <img src="images/Stuffed-crust pizza.jpg" width="270" height="220">
-                    <p id="stuffed"><strong>STUFFED-CRUST PIZZA</strong></p>
-                </div>
-                <div class="col-md-3">
-                    <img src="images/Gluten-crust pizza.jpg" width="270" height="220">
-                    <p id="gluten"><strong>GLUTEN FREE-CRUST PIZZA</strong></p>
-                </div>
-                <div class="col=md-3">
-                    <img src="https://img1.mashed.com/img/uploads/2017/09/pizza.jpg" width="270" height="220">
-                    <p id="mixed"><strong>PIZZA with many Toppings</strong></p>
-                </div>
+    <div class="part2">
+        <h3><strong>OUR FAVORITE PIZZAS</strong></h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/crispy-crust pizza.jpg" width="270" height="220">
+                <p id="crispy"><strong>CRISPY-CRUST PIZZA</strong></p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Stuffed-crust pizza.jpg" width="270" height="220">
+                <p id="stuffed"><strong>STUFFED-CRUST PIZZA</strong></p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Gluten-crust pizza.jpg" width="270" height="220">
+                <p id="gluten"><strong>GLUTEN FREE-CRUST PIZZA</strong></p>
+            </div>
+            <div class="col=md-3">
+                <img src="https://img1.mashed.com/img/uploads/2017/09/pizza.jpg" width="270" height="220">
+                <p id="mixed"><strong>PIZZA with many Toppings</strong></p>
             </div>
         </div>
-        <form>
-            <div class="part3">
-                <h4><strong>MAKE THE ORDER OF YOUR CHOICE!</strong></h4>
-                <div class="row">
-                    <div class="col-md-3">
-                        <select id="size">
+    </div>
+    <form>
+        <div class="part3">
+            <h4><strong>MAKE THE ORDER OF YOUR CHOICE!</strong></h4>
+            <div class="row">
+                <div class="col-md-3">
+                    <select id="size">
                         <option>SIZE of Pizza</option>
                         <option value="$5">Small</option>
                         <option value="$10">Medium</option>
                         <option value="$20">Large</option>
                     </select>
-                    </div>
-                    <div class="col-md-3">
-                        <select id="crust">
+                </div>
+
+                <div class="col-md-3">
+                    <select id="crust">
                         <option>CRUST of Pizza</option>
                         <option value="$4.2">Crispy</option>
                         <option value="$3.8">Stuffed</option>
                         <option value="$3.5">Gluten free</option>
                     </select>
-                    </div>
-                    <div class="col-md-3">
-                        <select id="topping">
+                </div>
+
+                <div class="col-md-3">
+                    <select id="topping">
                         <option>Pizza Toppings</option>
                         <option value="$1.8">Mushrooms</option>
                         <option value="$1.5">Pepperoni</option>
@@ -74,9 +75,10 @@
                         <option value="$2.8">Black-Olives</option>
                         <option value="2.7">Extra-Cheese</option>
                     </select>
-                    </div>
-                    <div class="col-md-3">
-                        <select id="quantity">
+                </div>
+
+                <div class="col-md-3">
+                    <select id="quantity">
                             <option>Quantity</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -85,16 +87,19 @@
                             <option value="5">5</option>
                             <option value="6">6</option>
                             <option value="7">7</option>
-
                         </select>
-
-                    </div>
-
                 </div>
-
             </div>
-        </form>
-    </div>
+        </div>
+        <br>
+        <button id="submit">SUBMIT</button>
+    </form>
+    <h5>See your order:</h5>
+    <p>SODO-NI Pizza size : <span id="seeYourSizeChoice"></span></p>
+    <p>SODO-NI Pizza crust : <span id="seeYourCrustChoice"></span></p>
+    <p>SODO-NI Pizza toppings : <span id="seeYourToppingsChoice"></span></p>
+    <p>SODO-NI Pizza : <span id="seeYourQuantityChoice"></span></p>
+    <!-- <h6 id="displayTotal">TOTAL</h6> -->
 
 </body>
 
