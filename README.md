@@ -33,6 +33,6 @@ the Pizza total price
 ## No Bugs
 Some issues of functionality.
 ## HTML,CSS,JS,JQUERY,GIT and GITHUB, BOOTSTRAP,Terminal text editor and Visual Studio Code
-##
+##https://nicky-code.github.io/PizzaLover/ ,aline.nicole7@gmail.com , +250788755030
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*Copyright (c) {2019} **{Aline Nicole Uwamariya}**
