@@ -13,7 +13,6 @@ The project code should be consistently indented, neat and easy to read through.
 ## BDD
 ### Behaviour
 As a customer, I would like to;
-
 Choose the size of pizza I want e.g Small, Medium, Large
 Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
 Choose the topping(s) I want on my pizza.
