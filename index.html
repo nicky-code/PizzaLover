@@ -42,43 +42,42 @@
             </div>
         </div>
     </div>
-    <form>
+    <form id="pizza">
         <div class="part3">
             <h4><strong>MAKE THE ORDER OF YOUR CHOICE!</strong></h4>
             <div class="row">
                 <div class="col-md-3">
                     <select id="size">
                         <option>SIZE of Pizza</option>
-                        <option value="$5">Small</option>
-                        <option value="$10">Medium</option>
-                        <option value="$20">Large</option>
+                        <option value="5000">Small</option>
+                        <option value="6500">Medium</option>
+                        <option value="10000">Large</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
                     <select id="crust">
                         <option>CRUST of Pizza</option>
-                        <option value="$4.2">Crispy</option>
-                        <option value="$3.8">Stuffed</option>
-                        <option value="$3.5">Gluten free</option>
+                        <option value="5500">Crispy</option>
+                        <option value="4500">Stuffed</option>
+                        <option value="5000">Gluten free</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
                     <select id="topping">
-                        <option>Pizza Toppings</option>
-                        <option value="$1.8">Mushrooms</option>
-                        <option value="$1.5">Pepperoni</option>
-                        <option value="$2.5">Sausage</option>
-                        <option value="$1">Oignons</option>
-                        <option value="$3">Tuna</option>
-                        <option value="$2.8">Black-Olives</option>
-                        <option value="2.7">Extra-Cheese</option>
-                    </select>
+                            <option>Toppings</option>
+                            <option value="700">Mushrooms</option>
+                            <option value="800">Pepperoni</option>
+                            <option value="2000">Sausage</option>
+                            <option value="500">Oignons</option>
+                            <option value="2500">Tuna</option>
+                            <option value="1000">Extra-Cheese</option>
+                        </select>
                 </div>
 
                 <div class="col-md-3">
-                    <select id="quantity">
+                    <select id="quantity">s
                             <option>Quantity</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -91,16 +90,25 @@
                 </div>
             </div>
         </div>
+        <select id="delivery">
+                    <option>Delivery</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
         <br>
         <button id="submit">SUBMIT</button>
-    </form>
-    <h5>See your order:</h5>
-    <p>SODO-NI Pizza size : <span id="seeYourSizeChoice"></span></p>
-    <p>SODO-NI Pizza crust : <span id="seeYourCrustChoice"></span></p>
-    <p>SODO-NI Pizza toppings : <span id="seeYourToppingsChoice"></span></p>
-    <p>SODO-NI Pizza : <span id="seeYourQuantityChoice"></span></p>
-    <h6 id="displayTotal">TOTAL</h6>
+        <br>
 
+    </form>
+    <button id="location">Location</button>
+    <div id="yourOrderSummary" class="part4">
+        <h4>See your order:</h4>
+        <p>SODO-Ni Pizza size : <span id="seeYourSizeChoice"></span></p>
+        <p>SODO-Ni Pizza crust : <span id="seeYourCrustChoice"></span></p>
+        <p>SODO-Ni Pizza toppings : <span id="seeYourToppingsChoice"></span></p>
+        <p>SODO-Ni Pizza quantity : <span id="seeYourQuantityChoice"></span></p>
+        <h4 id="displayTotal">TOTAL</h4>
+    </div>
 </body>
 
 </html>
