@@ -6,6 +6,18 @@ body {
     background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+    .part1 {
+        width: 40%;
+    }
+    .part3 {
+        width: 40%;
+    }
+    .part6 {
+        width: 40%;
+    }
+}
+
 .part1 {
     color: rgb(176, 184, 174);
     box-sizing: content-box;
