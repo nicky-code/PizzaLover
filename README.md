@@ -22,3 +22,10 @@ Have an option to order as many pizzas as I want.
 Have an option to have the pizza delivered or not.  If delivered I want to be alerted how much the delivery charge will be.
 If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
 See a checkout button that when clicked shows the total amount charged for the orders.
+### Input Examples
+you have to select in each sector of these:
+Size of pizza
+Crust of pizza
+Topping of pizza
+Delivery
+
