@@ -1,4 +1,4 @@
-# PizzaLover
+# SODO-Ni Pizzeria
 ## SODO-Ni Pizzeria ,5th August 2019
 ### By Aline Nicole UWAMARIYA
 ## Description
@@ -13,7 +13,6 @@ The project code should be consistently indented, neat and easy to read through.
 ## BDD
 ### Behaviour
 As a customer, I would like to;
-
 Choose the size of pizza I want e.g Small, Medium, Large
 Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
 Choose the topping(s) I want on my pizza.
@@ -33,6 +32,8 @@ the Pizza total price
 ## No Bugs
 Some issues of functionality.
 ## HTML,CSS,JS,JQUERY,GIT and GITHUB, BOOTSTRAP,Terminal text editor and Visual Studio Code
-##https://nicky-code.github.io/PizzaLover/ ,aline.nicole7@gmail.com , +250788755030
+## https://nicky-code.github.io/PizzaLover/, aline.nicole7@gmail.com , +250788755030
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*Copyright (c) {2019} **{Aline Nicole Uwamariya}**
+*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+Copyright (c) {2019} **{Aline Nicole Uwamariya}**
+
