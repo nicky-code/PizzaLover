@@ -10,7 +10,7 @@ $(document).ready(function() {
             deliveryPrice += 1500;
             alert(deliveryPrice)
             var location = prompt('Say your location:');
-            alert('pizza will be delivered at' + location);
+            alert('pizza will be delivered at' + ' ' + location);
         }
     });
     $('form#pizza').submit(function(event) {

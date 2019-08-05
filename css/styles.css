@@ -98,3 +98,18 @@ h4 {
     background-color: rgb(77, 4, 55);
     color: white;
 }
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(77, 4, 55);
+    font-style: italic;
+}
+
+#yourOrderSummary {
+    padding-bottom: 50px;
+}
+
+#displayTotal {
+    padding-bottom: 150px;
+}
