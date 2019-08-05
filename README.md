@@ -32,4 +32,5 @@ Delivery
 the Pizza total price
 ## No Bugs
 Some issues of functionality.
+## HTML,CSS,JS,JQUERY,GIT and GITHUB, BOOTSTRAP,Terminal text editor and Visual Studio Code
 
