@@ -29,5 +29,7 @@ Crust of pizza
 Topping of pizza
 Delivery
 ### Output Examples
-the Pizza total amount
+the Pizza total price
+## No Bugs
+Some issues of functionality.
 
