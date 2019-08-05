@@ -28,4 +28,6 @@ Size of pizza
 Crust of pizza
 Topping of pizza
 Delivery
+### Output Examples
+the Pizza total amount
 
